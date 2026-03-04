@@ -2,29 +2,29 @@ class Workz < Formula
   desc "Zoxide for Git worktrees — zero-config sync, fuzzy switching, AI-ready"
   homepage "https://github.com/rohansx/workz"
   license any_of: ["MIT", "Apache-2.0"]
-  version "0.7.0"
+  version "0.7.1"
 
   on_macos do
     on_arm do
       url "https://github.com/rohansx/workz/releases/download/v#{version}/workz-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "8660f304ce8844f58ddc847b5d5a47fe9b68c008dd1dc68992027b09f301e7e6"
+      sha256 "a9b99ac3908fe44a15676d8840a2b299dd9049675ec42b5e4582b4a85223ab65"
     end
 
     on_intel do
       url "https://github.com/rohansx/workz/releases/download/v#{version}/workz-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "0df1a19bd44624e98822978ef78f4005130581a117585598c0655c0987283e1c"
+      sha256 "219906dbb62123ea6038cc638a87870241c3a2bb561b0344aaf6ffa48dad805f"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/rohansx/workz/releases/download/v#{version}/workz-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fa7b80d76790fee8b35e0f25f460c8cef393d4e4053c80e631eb879112a8e565"
+      sha256 "6c7b5f2421cda8e30666081a4ab0445c1eac88f6fedc7fd979f533e0ffb0d92a"
     end
 
     on_intel do
       url "https://github.com/rohansx/workz/releases/download/v#{version}/workz-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "dc6d51f7ee7022d085a60191bba8923601fd25ddd84f82d10d8edf6e2fcc2e6b"
+      sha256 "97685bfbe0728c010ce553cfef5b2873f069af8dd63dab07815266f3792afbf5"
     end
   end
 
